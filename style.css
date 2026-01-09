@@ -274,3 +274,60 @@ margin-bottom: 40px;
     color: #001931;
     gap: 6px;
 }
+/* brain section end */
+
+.cta-section {
+  background-color: #F7F6F2;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+  max-width: 80%;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 120px;
+
+}
+
+.cta-container {
+  background-color: #f8f7f3; 
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.cta-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+.cta-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.cta-btn {
+  background-color: #4f966e; 
+  color: white;
+  padding: 16px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.cta-footer{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+
