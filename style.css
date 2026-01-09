@@ -158,7 +158,6 @@ background-color: #001931;
 /* notes section */
 .notes-section {
   padding: 80px 20px;
-  background-color: #ffffff;
   text-align: center;
 }
 
@@ -221,4 +220,57 @@ background-color: #001931;
     color: #001931;
     list-style: 20px;
     margin-bottom: 16px;
+}
+/* brain section start */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 60px; 
+}
+
+.brain-image img{
+    height: 600px;
+    width: 600px;
+}
+
+.brain-content{
+    width: 700px;
+    height: 397px;
+}
+
+.brain-content .brain-heading{
+font-size: 16px;
+line-height: 20px;
+color: #30B868;
+margin-bottom: 16px;
+}
+
+.brain-content h2{
+font-size: 48px;
+font-weight: 700;
+color: #001931;
+margin-bottom: 16px;
+}
+
+.brain-content p{
+font-size: 16px;
+color: #627382;
+margin-bottom: 40px;
+}
+
+.list{
+    list-style: none;
+
+}
+
+.list li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #001931;
+    gap: 6px;
 }
