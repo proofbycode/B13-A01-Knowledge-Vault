@@ -71,255 +71,154 @@ background-color: #001931;
 
 
 /* banner section start here */
-.banner{
 
-    max-width: 1600px;
-    height: 674px;
-    background: url(./assets/hero-bg.png);
-    margin-top: 34px;
-    background-position: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.banner{
+    background-image: url(./assets/hero-bg.png);
     background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    color: #FFF;
+
+}
+
+.banner-contant{
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 550px;
 }
 
 .content{
-    text-align: center;
-    margin: 0 auto;
-    max-width: 1360px;    
-    height: 380px;
+   max-width: 800px; 
 }
 
-.content .banner-button{
+.circle{
     background-color: white;
-    display: inline;
-    padding: 8px 12px;
+    display: inline-block;
     border-radius: 1000px;
-    
-
-}
-
-.banner-button button{
-    color: rgba(70, 145, 101, 1);
     font-size: 16px;
-    font-weight: 500;
-    font-style: medium;
-    border: none;
-    line-height: 19px;
-    margin-bottom: 16px;
-}
-
-.content .banner-content h1{
-    font-size: 72px;
-    line-height: 84px;
-    color: #FFF;
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 16px;
-    
-}
-
-.content .banner-content span{
     color: #30B868;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+
 }
 
-.content .banner-content p{
+.circle img{
+    margin-right: 6px;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 35px;
+    color: #FFF;
+    line-height: 40px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.content .highlight{
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.content p{
     font-size: 18px;
     line-height: 24px;
     color: #FFF;
-    text-transform: capitalize;
     margin-bottom: 32px;
-    
 }
 
-.content .banner-fotter-button .button-one{
-background-color: #30B868;
-padding: 16px 16px;
-border: none; 
-margin-right: 16px;
-border-radius: 4px;
-font-size: 16px;
-font-weight: 600;
-color: #FFF;
-cursor: pointer;
-}
-
-.content .banner-fotter-button .button-one i{
-    margin-left: 10px;
-}
-
-.content .banner-fotter-button .button-one:hover{
-    background-color: #001931;
-    color: white;
-}
-
-.content .banner-fotter-button .button-two{
-background-color: transparent;
-border: 1px solid white;
-padding: 16px 16px;
-border-radius: 4px;
-font-size: 16px;
-font-weight: 600;
-color: #FFF;
-cursor: pointer;
-}
-
-.content .banner-fotter-button .button-two:hover{
-    background-color: #001931;
-    color: white;
-    border: 1px solid #001931;
-}
-
-.content .banner-fotter-button .button-two i{
-    margin-right: 10px;
-}
-
-/* banner section end */
-
-/* 
-notes card start */
-
-.note-section{
-    text-align: center;
-    margin-top: 35px;
-    margin-bottom: 120px;
-}
-
-.card-flex{
+.content button{
     display: flex;
-    gap: 20px;
     justify-content: center;
-    
+    align-items: center;
 }
 
-.card-header-section h2{
-    font-size: 48px;
-    font-weight: 700;
-    color: #001931;
-    text-transform: capitalize;
-    margin-bottom:16px;
+.btn{
+    border-radius: 4px;
+    padding: 16px 16px;
+    text-decoration: none;
 }
 
-.card-header-section p{
-    font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    text-transform: capitalize;
-    margin-bottom:44px;
+.btn-primary {
+  background-color: #30B868; 
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 16px;
+}
+.btn-secondary {
+  border: 1px solid white;
+  color: white;
 }
 
-.card-flex{
+/* notes section */
+.notes-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.notes-header h2 {
+  font-size: 48px;
+  color: #001931; 
+  margin-bottom: 16px;
+}
+
+.notes-header p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 44px;
+}
+
+.flex-card{
     display: flex;
+    justify-content: center;
     gap: 24px;
-    justify-content: center;
-    align-items: stretch;
+    max-width: 800px;
+    margin: 0 auto;
 
 }
 
-.card-flex h3{
+.card {
+  background: #fff;
+  border: 1px solid #f1f5f9;
+  border-radius: 12px;
+  padding: 40px 30px;
+  flex: 1; 
+  min-width: 300px; 
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #ff5e5e; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.card h3{
     font-size: 24px;
     font-weight: 600;
     color: #001931;
     margin-bottom: 16px;
 }
 
-.card-flex p{
+.card p{
     font-size: 16px;
-    line-height: 20px;
-    color: #627382;
-    margin-bottom: 20px;
-    flex-grow: 1;
-}
-
-.card{
-    background-color: white;
-    border: 1px solid #f0f0f0;
-    border-radius: 8px;
-    max-width: 322px;
-    min-height: 250px;
-    box-shadow: 0 -5px 10px rgba(0,0,0,0.2);
-    flex-direction: column;
-    flex: 1;
-    
-
-}
-
-.icon{
-    background-color: #F95555;
-    color: #FFF;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin: 70px 131px 16px 131px;
-}
-
-/* notes section end */
-
-/* brain section */
-
-.brain-section{
-    display: flex;
-    justify-content: space-between;
-    gap: 60px;
-    align-items: center;
-}
-
-.brain-image-section{
-    max-width: 600px;
-    min-height: 600px;
-    border-radius: 12px;
- 
-    
-}
-
-.brain-content{
-    max-width: 580px;
-    margin-right: 126px;
-    
-}
-.brain-section .brain-content h6{
-    tab-size: 16px;
-    line-height: 20px;
-    color: #30B868;
-    margin-bottom: 16px;
-    
-}
-
-.brain-section .brain-content h2{
-    font-size: 48px;
-    font-weight: bold;
     color: #001931;
-    margin-bottom: 16px;
-    
-    
-}
-
-.brain-section .brain-content p{
-    tab-size: 16px;
     list-style: 20px;
-    color: #627382;
-    margin-bottom: 40px;
-    
-    
-}
-
-.brain-list ul li{ 
-    list-style: none;
-    display: flex;
-    gap: 5px;
     margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 20px;
 }
-
-.brain-list ul li img{ 
-    text-align: center;
-    width: 20px;
-    height: 20px;
-    object-fit: contain;
-}
-
