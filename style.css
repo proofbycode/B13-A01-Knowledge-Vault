@@ -150,9 +150,16 @@ background-color: #001931;
   font-weight: 600;
   margin-right: 16px;
 }
+.btn-primary:hover {
+  background-color: #001931;
+}
 .btn-secondary {
   border: 1px solid white;
   color: white;
+}
+
+.btn-secondary:hover {
+   background-color: #001931;
 }
 
 /* notes section */
@@ -322,6 +329,10 @@ margin-bottom: 40px;
   font-weight: 600;
   gap: 10px;
   margin-bottom: 25px;
+}
+
+.cta-btn:hover{
+    background-color: #001931;
 }
 
 .cta-footer{
